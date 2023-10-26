@@ -22,7 +22,7 @@ public class Subscription {
 
     private int noOfScreensSubscribed;
 
-    private Date startSubscriptionDate;
+//    private Date startSubscriptionDate;
 
     private int totalAmountPaid;
 
@@ -33,7 +33,7 @@ public class Subscription {
     public Subscription(SubscriptionType subscriptionType, int noOfScreensSubscribed, Date startSubscriptionDate, int totalAmountPaid) {
         this.subscriptionType = subscriptionType;
         this.noOfScreensSubscribed = noOfScreensSubscribed;
-        this.startSubscriptionDate = startSubscriptionDate;
+//        this.startSubscriptionDate = startSubscriptionDate;
         this.totalAmountPaid = totalAmountPaid;
     }
 
@@ -65,12 +65,12 @@ public class Subscription {
         this.noOfScreensSubscribed = noOfScreensSubscribed;
     }
 
-    public Date getStartSubscriptionDate() {
-        return startSubscriptionDate;
-    }
+//    public Date getStartSubscriptionDate() {
+//        return startSubscriptionDate;
+//    }
 
     public void setStartSubscriptionDate(Date durationOfSubscription) {
-        this.startSubscriptionDate = durationOfSubscription;
+//        this.startSubscriptionDate = durationOfSubscription;
     }
 
     public int getTotalAmountPaid() {
