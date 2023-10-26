@@ -10,7 +10,7 @@ public class ProductionHouse {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private int id;
 
     @Column(unique = true)
     private String name;
