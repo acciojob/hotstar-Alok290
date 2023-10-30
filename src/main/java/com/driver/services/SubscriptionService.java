@@ -50,9 +50,9 @@ public class SubscriptionService {
         subscription.setUser(user);
         user.setSubscription(subscription);
 
-        subscriptionRepository.save(subscription);
-//        or
-//        userRepository.save(user);
+//        subscriptionRepository.save(subscription);
+//        orgi
+        userRepository.save(user);
 
 
         return amount;
